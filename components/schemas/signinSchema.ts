@@ -13,6 +13,6 @@ export const getSigninSchema = (t: (key: string) => string) =>
         // Simple regex to allow Unicode local and domain parts
         .regex(
             /^[^\s@]+@[^\s@]+\.[^\s@]+$/u,
-            t("signin_validation_email_invalid")
+            t("validation_email_invalid")
         ),
   });

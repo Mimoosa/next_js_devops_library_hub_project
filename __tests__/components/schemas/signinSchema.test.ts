@@ -42,7 +42,7 @@ describe("getSigninSchema", () => {
     const emailError = result?.error?.issues.find(
       (issue) => issue.path[0] === "email"
     )?.message;
-    expect(emailError).toBe("translated:signin_validation_email_invalid");
+    expect(emailError).toBe("translated:validation_email_invalid");
   });
 
   it("should fail when password is too short", () => {
