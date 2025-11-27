@@ -22,8 +22,9 @@ function About() {
         <section className="w-full h-[750px] flex items-center justify-center bg-[#643220] text-gray-200">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="relative w-full h-80 rounded-sm overflow-hidden shadow-lg">
-                    <Image src="/about-unsplash.jpg" width={600} height={400} alt="A stack of books"
-                           className="absolute w-full h-full object-cover"/>
+                    <Image src="/about-unsplash_1014.webp" width={600} height={400} alt="A stack of books"
+                           className="absolute w-full h-full object-cover" priority
+                           fetchPriority="high" />
                 </div>
                 <div className="flex flex-col items-center md:items-start text-center md:text-left">
                     <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">

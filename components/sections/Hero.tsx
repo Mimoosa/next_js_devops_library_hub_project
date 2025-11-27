@@ -30,8 +30,9 @@ function Hero() {
         <section className="relative w-full h-[750px] flex items-center justify-center bg-white overflow-hidden">
             {/* Background Image with Overlay */}
             <div className="absolute inset-0 z-0">
-                <Image src="/hero-unsplash.jpg" alt="Bookshelf background" width={1200} height={600}
-                       className="w-full h-full object-cover blur-sm opacity-85"/>
+                <Image src="/hero-unsplash_1014.webp" alt="Bookshelf background" width={1200} height={600}
+                       className="w-full h-full object-cover blur-sm opacity-85" priority
+                       fetchPriority="high" />
                 <div className="absolute inset-0 bg-black opacity-50"></div>
             </div>
             {/* Content */}
