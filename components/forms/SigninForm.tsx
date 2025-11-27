@@ -97,7 +97,6 @@ export function SigninForm() {
                 name="email"
                 type="text"
                 placeholder="name@example.com"
-                required
               />
               <ZodErrors error={formState?.zodErrors?.email} />
             </div>
