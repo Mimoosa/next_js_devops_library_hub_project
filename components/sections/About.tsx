@@ -73,7 +73,7 @@ function About() {
                         </div>
                     </div>
                     <Link href="/books" passHref>
-                        <button
+                        <button title="Explore More"
                             className="mt-8 px-6 py-2 rounded-sm border-1 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white transition-colors duration-300">
                             {/*Adding translation key*/}
                             {t('about_btn_explore')}

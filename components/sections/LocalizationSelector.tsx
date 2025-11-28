@@ -57,7 +57,7 @@ const LocalizationSelector = () => {
         </button>
       ))}
 
-      <button
+      <button title="Select Language"
         onClick={() => setIsOpen(!isOpen)}
         className={`w-16 h-16 rounded-full bg-orange-500 hover:bg-orange-600 shadow-xl flex items-center justify-center transition-all duration-300 ${
           isOpen ? 'rotate-45' : ''
