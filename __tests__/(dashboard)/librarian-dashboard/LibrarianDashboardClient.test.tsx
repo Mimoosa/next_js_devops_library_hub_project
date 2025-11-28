@@ -38,7 +38,7 @@ describe("LibrarianDashBoardClient", () => {
             expect(screen.getByText(/Test\s+User/i)).toBeInTheDocument();
             expect(screen.getAllByText(/librarian/i).length).toBeGreaterThan(0);
             expect(screen.getByText(/Active/i)).toBeInTheDocument();
-        }); 
+        });
     });
 
     it("does not submit the form if required fields are missing", async () => {
@@ -88,7 +88,7 @@ describe("LibrarianDashBoardClient", () => {
         // Fill in all required fields
         await userEvent.type(screen.getByPlaceholderText("book_title_label"), "Test Book");
         await userEvent.type(screen.getByPlaceholderText("Author"), "Test Author");
-        await userEvent.type(screen.getByPlaceholderText("Image URL"), "http://example.com/image.jpg");
+        await userEvent.type(screen.getByPlaceholderText("Image URL"), "https://example.com/image.jpg");
         await userEvent.type(screen.getByPlaceholderText("Category"), "Fiction");
         await userEvent.type(screen.getByPlaceholderText("ISBN"), "1234567890");
         await userEvent.type(screen.getByPlaceholderText("Publisher"), "Test Publisher");
