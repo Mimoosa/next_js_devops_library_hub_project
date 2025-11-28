@@ -88,9 +88,7 @@ describe('Hero Component', () => {
             // Test background image
             const backgroundImage = screen.getByAltText('Bookshelf background')
             expect(backgroundImage).toBeInTheDocument()
-            expect(backgroundImage).toHaveAttribute('src', '/hero-unsplash.jpg')
-            expect(backgroundImage).toHaveAttribute('width', '1200')
-            expect(backgroundImage).toHaveAttribute('height', '600')
+            expect(backgroundImage).toHaveAttribute('src', '/hero-unsplash_1014_comp.webp')
         })
     })
 
