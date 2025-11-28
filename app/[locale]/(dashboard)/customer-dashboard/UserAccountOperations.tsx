@@ -6,7 +6,6 @@ import { Separator } from "@/components/ui/separator";
 import { Input } from "@/components/ui/input";
 import { ZodErrors } from "@/components/custom/ZodErrors";
 import { updateUserAction } from "@/app/[locale]/(dashboard)/customer-dashboard/update-user-action";
-// import { toast } from "react-hot-toast";
 import initTranslations from "@/app/i18n"; // Importing the translation initializer
 
 const INITIAL_STATE: FormState = {
@@ -69,7 +68,6 @@ export default function UserAccountOperations() {
       router.push(pathname);
       setShowForm(false);
     }
-    // toast(formState.message);
   }, [formState.message, pathname, router]);
 
   return (

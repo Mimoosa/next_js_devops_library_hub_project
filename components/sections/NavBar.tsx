@@ -98,7 +98,7 @@ function NavBar() {
                                            className="relative block w-full border border-gray-300 rounded-md py-2 pl-4 pr-4 leading-5 bg-white placeholder-gray-400 focus:ring-1 focus:ring-orange-500 focus:outline-none focus:border-orange-500 text-xs"
                                            placeholder={t('nav_search_placeholder')} type="text"
                                            value={search} onChange={(e) => setSearch(e.target.value)}/>
-                                    <button type="button"
+                                    <button type="button" title="Search"
                                             className="absolute right-0 px-3 py-2 bg-orange-500 text-white rounded-r-md hover:cursor-pointer hover:bg-orange-500 focus:outline-none"
                                             onClick={() => handleClick()}>
                                         <MagnifyingGlassIcon className="h-5.5 w-5"/>

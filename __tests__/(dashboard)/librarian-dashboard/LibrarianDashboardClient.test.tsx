@@ -38,7 +38,7 @@ describe("LibrarianDashBoardClient", () => {
             expect(screen.getByText(/Test\s+User/i)).toBeInTheDocument();
             expect(screen.getAllByText(/librarian/i).length).toBeGreaterThan(0);
             expect(screen.getByText(/Active/i)).toBeInTheDocument();
-        }); 
+        });
     });
 
     it("does not submit the form if required fields are missing", async () => {
