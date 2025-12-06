@@ -40,13 +40,18 @@ outcomes.
 ### Project Management
 - **Project Management Software:** Jira
 
+## Use Case Diagram
+![Use Case Diagram](public/LibraryHub-UseCaseDiagram.png)
+
+## Sequence Diagrams
+![Sequence Diagram](public/LibraryHub-SequenceDiagram.png)
 ## Database 
 
 This [document](https://github.com/vickneee/SEP-R1/blob/main/supabase/README.md) is Supabase CLI Guide.
 
 Database schema:
 
-![Database](public/database_10_10_2025.png)
+![Database](public/LibraryHub-RelationalSchema.png)
 
 ## Localization
 
