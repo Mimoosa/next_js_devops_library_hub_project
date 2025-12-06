@@ -51,7 +51,7 @@ This [document](https://github.com/vickneee/SEP-R1/blob/main/supabase/README.md)
 
 Database schema:
 
-![Database](public/LibraryHub-RelationalSchema.png)
+![Database Relational Schema](public/LibraryHub-RelationalSchema.png)
 
 ## Localization
 
