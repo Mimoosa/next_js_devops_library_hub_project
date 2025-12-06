@@ -2,6 +2,12 @@
 
 This document provides instructions on how to integrate SonarQube or SonarCloud into your project for continuous code quality inspection.
 
+### Current Main Branch Summary (as of Dec 2025):
+
+- Security: A 
+- Reliability: A
+- Maintainability: A
+
 ## Overview
 
 SonarQube is an open-source platform for continuous inspection of code quality, while SonarCloud is its cloud-based counterpart. Both tools help identify bugs, vulnerabilities, and code smells in your codebase, ensuring high-quality software development.
@@ -61,7 +67,7 @@ To install SonarScanner, follow the instructions for your operating system from 
        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
    ```
    
-## Running the Analysis (Locally example with SonarScanner)
+## Running the Analysis (if running locally)
 
 To run the SonarQube or SonarCloud analysis, execute the following command in your project's root directory:
 
@@ -91,7 +97,7 @@ npm run sonar:run
 
 ## Viewing Results
 
-After the analysis is complete, you can view the results in your SonarQube server or SonarCloud dashboard. The dashboard provides insights into code quality, including bugs, vulnerabilities, code smells, and test coverage.
+After the analysis is complete, you can view the results in your SonarQube server http://localhost:9000 or SonarCloud dashboard https://sonarcloud.io/summary/overall?id=vickneee_SEP-R1&branch=main. The dashboard provides insights into code quality, including bugs, vulnerabilities, code smells, and test coverage.
 
 ## Conclusion
 
