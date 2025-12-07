@@ -9,25 +9,25 @@ outcomes.
 
 ## Features
 
-- Feature: User can authenticate (Sign Up / Sign In) to make book reservations.
+- **Feature:** User can authenticate (Sign Up / Sign In) to make book reservations.
 
-- Feature: Role-based authentication: Customer/Librarian.
+- **Feature:** Role-based authentication: Customer/Librarian.
 
-- Feature: Librarians can perform basic CRUD operations for books database.
+- **Feature:** Librarians can perform basic CRUD operations for books database.
 
-- Feature: Users can search and list books from the library database.
+- **Feature:** Users can search and list books from the library database.
 
-- Feature: Users can make an online reservation for a book for a set time-period.
+- **Feature:** Users can make an online reservation for a book for a set time-period.
 
-- Feature: Users can manage their reservation state by returning the book / extend reservation periods.
+- **Feature:** Users can manage their reservation state by returning the book / extend reservation periods.
 
-- Feature: Penalty-system with reminders for overdue reservations.
+- **Feature:** Penalty-system with reminders for overdue reservations.
 
-- Feature: Users are unable to make reservations if restrictions apply.
+- **Feature:** Users are unable to make reservations if restrictions apply.
 
-- Feature: Users can read content in their own language.
+- **Feature:** Users can read content in their own language.
 
-- Feature: When the user logs in, the content is shown in their preferred language, which is stored in the database.
+- **Feature:** When the user logs in, the content is shown in their preferred language, which is stored in the database.
 
 ## Technology Stack
 
